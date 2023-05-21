@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+
+    &__img{
+        width: 15%;
+    }
+    &__dropdown{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 37%;
+    }
+    &__arrow{
+        height: 70%
+    }
+    &__month{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #212325;
+        margin-left: 2px;
+
+    }
+    &__container{
+        display: flex;
+        align-items: center;
+    }
+
+}
